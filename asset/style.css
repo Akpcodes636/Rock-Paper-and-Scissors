@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+header {
+  /* position: relative; */
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+/* .again {
+  /* position: absolute;
+  top: 2rem;
+  left: 2rem; */
+
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ccc;
+}
+.between {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+img {
+  width: 50%;
+}
+.btnSection {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+.headingText {
+  text-align: center;
+  /* margin-top: 10rem;/ */
+  font-size: 2rem;
+  /* margin-top: -5rem; */
+}
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.875);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.game-over {
+  font-size: 5rem;
+}
+.prize {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hidden {
+  display: none;
+}
+.imgEl,
+.btn {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.imgEl:hover,
+.btn:hover {
+  transform: scale(0.95);
+}
+.imgEl:active,
+btn:active {
+  transform: scale(1.1);
+}
+.pText {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.cText {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.pScore {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.cScore {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+/* for small Screen */
+@media (min-width: 320px) and (max-width: 500px){
+.between {
+  font-size: 1.5rem;
+}
+.again {
+  padding: 1rem 1rem;
+}
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 2rem;
+}
+.pText{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.pScore {
+  font-size: 1.5rem;
+}
+.cText {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.cScore {
+  font-size: 1.5rem;
+}
+main {
+  padding: 0rem 4rem;
+}
+.game-over {
+text-align: center;
+}
+.prize {
+  text-align: center;
+}
+}
+
+@media (min-width: 501px) and (max-width: 800px){
+.between {
+  font-size: 2rem;
+  text-align: center;
+}
+.again {
+  padding: 1rem 1rem;
+}
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 2rem;
+}
+.pText{
+  font-size: 2rem;
+  text-align: center;
+}
+.pScore {
+  font-size: 2rem;
+}
+.cText {
+  font-size: 2rem;
+  text-align: center;
+}
+.cScore {
+  font-size: 2rem;
+}
+main {
+  padding: 0rem 4rem;
+}
+.prize{
+  text-align: center;
+}
+}
+
+@media (min-width: 801px) and (max-width: 1000px){
+  main {
+    padding: 0rem 4rem;
+  }
+}

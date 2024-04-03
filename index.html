@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock,Paper,Scissor</title>
+    <link rel="stylesheet" href="./asset/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="between">Rock Paper AND Scissor</h1>
+      <button class="btn again">Again!</button>
+      <div>
+        <p class="pText">Player Score</p>
+        <p class="pScore">0</p>
+      </div>
+      <div>
+        <p class="cText">Computer Score</p>
+        <p class="cScore">0</p>
+      </div>
+    </header>
+    <main>
+      <section>
+        <p class="headingText">Lets Play</p>
+        <div class="hero-section">
+          <div>
+            <img
+              src="./asset/paper.svg"
+              class="imgEl"
+              alt="paper"
+              value="paper"
+            />
+          </div>
+          <div>
+            <img src="./asset/rock.svg" class="imgEl" alt="rock" value="rock" />
+          </div>
+          <div>
+            <img
+              src="./asset/scissors.svg"
+              class="imgEl"
+              alt="scissor"
+              value="scissors"
+            />
+          </div>
+        
+          <!-- modal -->
+          <div class="popup-container hidden">
+            <h1 class='game-over'>GAME OVER</h1>
+            <h2 class='winner-call'></h2>
+            <p class='prize lose'>Congratulations You Won</p>
+            <button type="button" class='reset btn'>Play Again</button>
+        </div>
+        </div>
+      </section>
+    </main>
+    <script src="./asset/index.js"></script>
+  </body>
+</html>
